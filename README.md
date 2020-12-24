@@ -39,8 +39,12 @@
 
 ***Optionaly :***
 
-You can create a shortcut from `Call of Duty Mobile.bat` to your desktop by doing :
+- You can create a shortcut from `Call of Duty Mobile.bat` to your desktop by doing :
 
 Right Clic `Call of Duty Mobile.bat` > `Send to Desktop` or `Create a shortcut`.
+
+- Note : You can replace Call of Duty Mobile with the APK name of wathever game from the Gameloop store :
+
+Right Clic `Call of Duty Mobile.bat` > `Edit` > Press simultaneously `CTRL` + `F` on your keyboard. > Search `com.activision.callofduty.shooter` > Replace `com.activision.callofduty.shooter` to the desired APK Package Name. [How to get APK Package Name ?](https://play.google.com/store/apps/details?id=bg.projectoria.appinspector)
 
 <hr>
