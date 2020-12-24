@@ -4,7 +4,7 @@
 
 <hr>
 
-<img src="https://i.imgur.com/GFAemsk.png">
+<img src="https://i.imgur.com/uSgdVSp.png">
 
 <hr></div align="center">
 
