@@ -13,7 +13,7 @@ exit
 )
 pushd "%TMP%"
 (
-echo if msgbox^("Do you want to start Call of Duty Mobile ?",69668,"Call of Duty Mobile"^)=vbyes then
+echo if msgbox^("Do you want to start Call of Duty Mobile ?",69668,"Call of Duty Mobile Launcher"^)=vbyes then
 echo wscript.quit ^(6^)
 echo else
 echo wscript.quit ^(7^)
