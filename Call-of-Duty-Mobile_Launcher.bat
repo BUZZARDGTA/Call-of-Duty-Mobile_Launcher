@@ -38,7 +38,6 @@ echo Waiting for the game to start before closing unnecessary processes...
 :LOOP
 tasklist /fi "imagename eq AndroidEmulator.exe" | findstr /c:"AndroidEmulator.exe" >nul 2>&1 || goto LOOP
 for %%a in (AppMarket syzs_dl_svr) do taskkill /f /im "%%a.exe" >nul 2>&1 && echo Successfully terminated "%%a.exe" processus.
-
 :EXIT
 timeout /t 3
 exit
