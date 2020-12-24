@@ -37,7 +37,7 @@
 1) Copy `Call of Duty Mobile.bat` to the installation directory.
 2) Start `Call of Duty Mobile.bat` and enjoy !
 
-Optionaly :
+***Optionaly :***
 
 You can create a shortcut from `Call of Duty Mobile.bat` to your desktop by doing :
 
