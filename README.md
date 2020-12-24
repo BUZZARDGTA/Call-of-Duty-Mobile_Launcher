@@ -41,6 +41,6 @@
 
 You can create a shortcut from `Call of Duty Mobile.bat` to your desktop by doing :
 
-Right Clic `Call of Duty Mobile.bat` > "Send to Desktop" or "Create a shortcut".
+Right Clic `Call of Duty Mobile.bat` > `Send to Desktop` or `Create a shortcut`.
 
 <hr>
