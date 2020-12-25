@@ -24,7 +24,7 @@ if errorlevel 7 set el=1
 popd
 net stop QMEmulatorService >nul 2>&1 && sc config QMEmulatorService start=demand >nul 2>&1 && echo Successfully Stopped and set service "QMEmulatorService" to demand.
 pushd ".."
-for /r %%a in (*.exe) do taskkill /f /im "%%~nxa" >nul 2>&1 && echo Successfully terminated "%%~nxa" processus.
+for /r %%a in (*.exe) do taskkill /f /im "%%~nxa" >nul 2>&1 && echo Successfully terminated "%%~nxa" processus. || taskkill /f /im "%%~nxa" /t 2>nul
 for /r %%a in (*.log) do if exist "%%a" del /f /q "%%a" >nul 2>&1 && echo Successfully deleted "%%~fa"
 popd
 pushd "%TMP%"
